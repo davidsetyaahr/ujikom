@@ -25,7 +25,7 @@
                     <td><?= $key ?></td>
                     <td><?= $value['nama_barang'] ?></td>
                     <td><?= $value['jumlah_datang'] ?></td>
-                    <td><?= dateTime($value['tanggal_datang']) ?></td>
+                    <td><?= dateOnly($value['tanggal_datang']) ?></td>
                     <td><?= $value['nama_supplier'] ?></td>
                     <td><?= $value['nama_lengkap'] ?></td>
                     <td>

@@ -24,3 +24,7 @@ function dateTime($date){
     $dateTime = date('d-m-Y H:i', strtotime($date));
     return $dateTime;
 }
+function dateOnly($date){
+    $date = date('d-m-Y', strtotime($date));
+    return $date;
+}
